@@ -1,0 +1,47 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-10-23 10:42:00
+ * @LastEditTime: 2020-11-10 14:09:59
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /test/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAYWAEL</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <div class="" id="app">
+        HELLO  {{msg}}
+    </div>
+    
+</body>
+<script src="simpleVue.js"></script>
+<script>
+let vm = new Vue({
+  el: '#app',
+  data: {
+    msg: 'Hello Vue',
+    count: 100
+  },
+})
+vm.msg='HAY'
+vm.count=200
+console.log(vm.msg)
+setTimeout(()=>{
+    vm.msg='Hello Vue'
+},2000)
+</script>
+
+
+
+
+</html>

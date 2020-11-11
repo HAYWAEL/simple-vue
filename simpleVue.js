@@ -1,7 +1,7 @@
 /*
  * @Author: HAYWAEL
  * @Date: 2020-11-09 17:16:06
- * @LastEditTime: 2020-11-10 14:51:40
+ * @LastEditTime: 2020-11-11 10:43:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /test/simpleVue.js
@@ -94,7 +94,7 @@ class Observer{
 // + isElementNode(node) 判读节点是否是元素节点
 
 
-class Complier{
+class Complier{ 
     constructor(vm){
         this.$el=vm.$el;
         this.vm=vm;
